@@ -41,6 +41,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="São Paulo"
             android:hint="@string/location"
             android:id="@+id/tv_location"
             />
@@ -66,6 +67,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/tv_text"
             android:hint="@string/text"
+            android:text="Hello world!"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -79,19 +81,5 @@
         android:textAllCaps="false"
         android:text="Share This Text"/>
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_takePicture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textAllCaps="false"
-        android:text="Take Picture"/>
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_takeGaleryImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textAllCaps="false"
-        android:text="Take Image Galery"/>
 
 </LinearLayout>
