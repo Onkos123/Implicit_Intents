@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="website">Website</string>
+    <string name="open_website">Open Website</string>
+    <string name="location">Location</string>
+    <string name="open_location">Open location</string>
+    <string name="text">Text</string>
+    <string name="webSite_url">https://developer.android.com/</string>
+</resources>
